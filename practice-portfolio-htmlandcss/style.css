@@ -29,20 +29,22 @@ border-radius: 50%;
 border: 3px solid rgb(15, 57, 52);
 }
 
+#profile ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
 #skills {
 margin: 20px;
 padding: 20px;
 }
 
-
 #skills ul {
-  list-style-position: inside;
-  text-align: center;
-  padding: 0;
-}
-
-#skills li {
-  margin: 5px 0;
+list-style-type: square;
 }
 
 table {
